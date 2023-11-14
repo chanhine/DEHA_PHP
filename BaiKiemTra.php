@@ -90,9 +90,3 @@ echo "Tuổi: " . $hocsinhDiemCaoNhat['age'] . "<br>";
 echo "Điểm: " . $hocsinhDiemCaoNhat['grade'] . "<br>";
 ?>
 
-<?php
-$numbers = [3,1,4,1,5,9,2,6,5,3,5];
-$uniqueNumbers = array_unique($numbers);
-sort($uniqueNumbers);
-print_r($uniqueNumbers);
-?>
